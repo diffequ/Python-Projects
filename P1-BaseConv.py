@@ -25,7 +25,6 @@ def asctohex(char):
     print("\nThe hex(base16) equivalent of",char,"is:")
     print(hex(ord(char)))
 
-
 def main():
 
     print("\nNumber Base Converter - July 2017\n")
