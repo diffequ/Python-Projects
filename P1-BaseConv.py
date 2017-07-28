@@ -3,38 +3,46 @@
 #               - ascii to binary
 #               - ascii to octal
 #               - ascii to decimal
+#               - ascii to hex
 # Built-in functions bin(),oct(),and ord()
 # has been used to make this project.
 ###########################################
 
-def asctobin(char1):
-    print("\nThe binary(base2) equivalent of",char1,"is:")
-    print(bin(ord(char1)))
 
-def asctooct(char2):
-    print("\nThe octal(base8) equivalent of",char2,"is:")
-    print(oct(ord(char2)))
+def asctobin(char):
+    print("\nThe binary(base2) equivalent of",char,"is:")
+    print(bin(ord(char)))
 
-def asctodec(char3):
-    print("\nThe decimal(base10) equivalent of",char3,"is:")
-    print(ord(char3))
+def asctooct(char):
+    print("\nThe octal(base8) equivalent of",char,"is:")
+    print(oct(ord(char)))
+
+def asctodec(char):
+    print("\nThe decimal(base10) equivalent of",char,"is:")
+    print(ord(char))
+
+def asctohex(char):
+    print("\nThe hex(base16) equivalent of",char,"is:")
+    print(hex(ord(char)))
+
 
 def main():
 
-    print("Number Base Converter - July 2017\n")
-    print("1: ascii to binary\n2: ascii to octal\n3: ascii to decimal\n")
+    print("\nNumber Base Converter - July 2017\n")
+    print("1: ascii to binary\n2: ascii to octal\n3: ascii to decimal\n4: ascii to hex\n")
 
     choice = input("make a choice:")
 
+
     if (choice == '1'):
-        char1 = input("enter a character:")
-        asctobin(char1)
+        asctobin(char = input("enter a character:"))
     elif (choice == '2'):
-        char2 = input("enter a character:")
-        asctooct(char2)
+        asctooct(char = input("enter a character:"))
     elif (choice == '3'):
-        char3 = input("enter a character:")
-        asctodec(char3)
+        asctodec(char = input("enter a character:"))
+    elif (choice == '4'):
+        asctohex(char = input("enter a character:"))
     else:
         print("Wrong Choice: Goodbye!")
+        exit()
 main()
