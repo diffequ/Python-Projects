@@ -6,7 +6,6 @@
 # Built-in functions bin(),oct(),and ord()
 # has been used to make this project.
 ###########################################
-import binascii
 
 def asctobin(char1):
     print("\nThe binary(base2) equivalent of",char1,"is:")
