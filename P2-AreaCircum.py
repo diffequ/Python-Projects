@@ -5,7 +5,8 @@
 #               # Circle
 #               # Triangle
 # Note: Incomplete.Changes will be made (July 31)
-########################################################
+# Note : Functions are completed.Needs to be more user friendly(Aug 1)
+########################################################################
 
 def checkDigit(data):
     if(data.isdigit()):
@@ -18,29 +19,46 @@ def circArea(data):
     pi = 3.1415926
     if(checkDigit(data)):
         print(pi*(float(data)**2))
-
+        return;
 
 def perimCircle(data):
     if(checkDigit(data)):
         print(3.1415926*2*float(data))
+        return;
 
 def areasq (length,width):
     if(checkDigit(length)):
         if(checkDigit(width)):
             print(float(data)**2)
+            return;
 
 def perimsq (data):
     if(checkDigit(data)):
         print(float(data)*4)
+        return;
+def arearect (length,width):
+    if(checkDigit(length)):
+        if(checkDigit(width)):
+            print(float(length)*float(width))
+            return;
 
-def arearect (data):
-    # L*W
-def perimrect (data):
-    # 2*(L+W)
-def areatri (data):
-    # (h*b)/2
-def perimtri (data):
-    # side + base + side
+def perimrect (length,width):
+    if(checkDigit(length)):
+        if(checkDigit(width)):
+            print(2*(float(length)+float(width)))
+            return;
+
+def areatri (height,base):
+    if(checkDigit(height)):
+        if(checkDigit(base)):
+            print((float(height)*float(base))/2)
+            return;
+def perimtri (side1,base,side2):
+    if(checkDigit(side1)):
+        if(checkDigit(base)):
+            if(checkDigit(side2)):
+                print(float(side1)+float(base)+float(side2))
+                return;
 
 def main():
     print ("\nArea and perimeter calculator - July 2017")
@@ -65,13 +83,13 @@ def main():
     elif (select == '4'):
         perimsq (data = input("enter the radius:"))
     elif (select == '5'):
-        arearect (data = input("enter the radius:"))
+        arearect (length = input("enter the length:"),width = input("enter the width:"))
     elif (select == '6'):
-        perimrect (data = input("enter the radius:"))
+        perimrect (length = input("enter the length:"),width = input("enter the width:"))
     elif (select == '7'):
-        areatri (data = input("enter the radius:"))
+        areatri (height = input("enter the height:"),base = input("enter the base:"))
     elif (select == '8'):
-        perimtri (data = input("enter the radius:"))
+        perimtri (side1 = input("enter the side1:"),base = input("enter the base:"),side2 = input("enter the side2:"))
     else :
         print("Wrong Choice! GoodBye!")
         exit()
