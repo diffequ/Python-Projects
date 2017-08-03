@@ -5,8 +5,8 @@
 #               # Circle
 #               # Triangle
 # Note: Incomplete.Changes will be made (July 31)
-# Note : Functions are completed.Needs to be more user friendly(Aug 1)
-########################################################################
+# Note: The project's been made more user friendly (Aug 3)
+##########################################################
 
 def checkDigit(data):
     if(data.isdigit()):
@@ -18,46 +18,49 @@ def checkDigit(data):
 def circArea(data):
     pi = 3.1415926
     if(checkDigit(data)):
-        print(pi*(float(data)**2))
+        print("\nthe area of the circle :",pi*(float(data)**2))
         return;
 
 def perimCircle(data):
+    pi = 3.1415926
     if(checkDigit(data)):
-        print(3.1415926*2*float(data))
+        print("\nThe perimeter of the circle:",pi*2*float(data))
         return;
 
 def areasq (length,width):
     if(checkDigit(length)):
         if(checkDigit(width)):
-            print(float(data)**2)
+            print("\nThe area of the square:",float(data)**2)
             return;
 
 def perimsq (data):
     if(checkDigit(data)):
-        print(float(data)*4)
+        print("\nThe perimeter of the square:",float(data)*4)
         return;
+
 def arearect (length,width):
     if(checkDigit(length)):
         if(checkDigit(width)):
-            print(float(length)*float(width))
+            print("\nThe area of the square:",float(length)*float(width))
             return;
 
 def perimrect (length,width):
     if(checkDigit(length)):
         if(checkDigit(width)):
-            print(2*(float(length)+float(width)))
+            print("\nThe perimeter of the rectangle:",2*(float(length)+float(width)))
             return;
 
 def areatri (height,base):
     if(checkDigit(height)):
         if(checkDigit(base)):
-            print((float(height)*float(base))/2)
+            print("\nThe area of the triangle:",(float(height)*float(base))/2)
             return;
+
 def perimtri (side1,base,side2):
     if(checkDigit(side1)):
         if(checkDigit(base)):
             if(checkDigit(side2)):
-                print(float(side1)+float(base)+float(side2))
+                print("\nThe perimeter of the triangle:",float(side1)+float(base)+float(side2))
                 return;
 
 def main():
