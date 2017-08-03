@@ -4,8 +4,6 @@
 #               # Rectangle
 #               # Circle
 #               # Triangle
-# Note: Incomplete.Changes will be made (July 31)
-# Note: The project's been made more user friendly (Aug 3)
 ##########################################################
 
 def checkDigit(data):
