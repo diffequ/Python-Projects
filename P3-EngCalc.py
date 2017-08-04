@@ -5,6 +5,7 @@
                 # inductance
                 # reactance
                 # frequency
+# Note : Version 1.Will be updated again.
 ########################################################
 
 def findI(V,R):
