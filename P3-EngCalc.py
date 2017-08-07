@@ -6,6 +6,7 @@
                 # reactance
                 # frequency
 # Note : Version 1.Will be updated again.
+# Update : float number can be input too now. (Aug 6)
 ########################################################
 
 def findI(V,R):
@@ -34,21 +35,21 @@ def findRwithVP(V,P):
 
 def findxL(f,L):
     pi = 3.14159
-    print("\nthe xL:",(2*pi*float(f)*float(L)),"Hz")
+    print("\nthe xL:",(2*pi*float(f)*float(L)),"Ohms")
     return;
 
 def findF(xL,L):
     pi = 3.14159
-    print("\nthe F:",(float(xL)/(2*pi*float(L))))
+    print("\nthe F:",(float(xL)/(2*pi*float(L))),"Hz")
     return;
 
 def findL(xL,f):
     pi = 3.14159
-    print("\nthe L:",float(xL)/(2*pi*float(f)))
+    print("\nthe L:",float(xL)/(2*pi*float(f)),"H")
     return;
 
 def checkDigit(data):
-    if(data.isdigit()):
+    if(data.replace(".","",1).isdigit()):
         return True
     else:
         print("Mistake! Try Again!")
