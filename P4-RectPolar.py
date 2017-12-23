@@ -1,5 +1,5 @@
 # B.KORYAN - Aug 8 2017
-# Python projects - Imaginary/Real number calculator
+# Python projects - Imaginary/Real number calculator/converter
 # Update: The project is made more user-friendly by adding new output text and variable names(Aug 9)
 
 import math
