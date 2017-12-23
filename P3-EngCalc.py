@@ -5,7 +5,6 @@
                 # inductance
                 # reactance
                 # frequency
-# Note : Version 1.Will be updated again.
 # Update : float number can be input too now. (Aug 6)
 ########################################################
 
