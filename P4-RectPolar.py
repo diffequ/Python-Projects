@@ -27,7 +27,8 @@ def conv_imag(Real_part,degree):
         print("Real part:%.2f" % a)
         print("Imaginary part:%.2f" % b)
         return;
-######################################################################
+    
+#-Main Function-#
 def main():
 
     print("\nWhat conversion would you like to do?\n")
