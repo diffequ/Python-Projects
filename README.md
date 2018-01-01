@@ -1,3 +1,3 @@
-Brief explaination of projects listed in the repository:
+**Brief explaination of projects listed in the repository:**
 
 
