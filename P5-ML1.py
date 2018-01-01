@@ -39,6 +39,7 @@ results = []
 names = []
 
 
+# Classify and print results:
 for name, model in models:
 	kfold = model_selection.KFold(n_splits=10, random_state=seed)
 	cv_results = model_selection.cross_val_score(model, X_train, Y_train, cv=kfold, scoring=scoring)
