@@ -1,5 +1,5 @@
 # P5-ML1 - Machine Learning practice with Python
-# B.KORYAN - Dec 31 2017 @ Fredericton
+# B.KORYAN - Dec 31 2017 @ Fredericton | web : http://koryan.ca
 # Citation : Special thanks to Dr.Jason Browlee for writing this article at this link below
 # https://machinelearningmastery.com/machine-learning-in-python-step-by-step/
 #------------------------------------------------------------------------------
