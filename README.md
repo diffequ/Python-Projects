@@ -1,2 +1,1 @@
-
- I started learning Python in July 2017.In this respiratory,you may find projects I worked on so far.Thanks for time!
+I started learning Python out of boredom,and of course curiousity!,in July 2017.I actually didn't plan to do any serious projects with python.Just because I love exploring and learning I created this respirasotry to keep them under one respirasatory and share with you!
