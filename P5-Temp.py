@@ -1,7 +1,7 @@
-# Project Name : Thermometer with PIC16XXXX and Python
-# Date : January 2018 (start) 
-# Designer : Burak Koryan | web: http://koryan.ca | e-mail: b.fk@unb.ca
-# Description: This project has not been completed yet and will be worked on.
+# Project Name : Thermometer with PIC16XXXX and Python                         #
+# Date : January 2018 (start)                                                  # 
+# Designer : Burak Koryan | web: http://koryan.ca | e-mail: b.fk@unb.ca        #
+# Description: This project has not been completed yet and will be worked on.  # 
 ################################################################################
 
 
