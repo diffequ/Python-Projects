@@ -1,5 +1,6 @@
-# LM35 Temperature sensor with PIC16F877 and Python Interface
-# Burak Koryan | e-mail : burak@koryan.ca | web: http://koryan.ca
+# LM35 Temperature sensor with PIC16F877 and Python Interface         #
+# Burak Koryan | e-mail : burak@koryan.ca | web: http://koryan.ca     #  
+#######################################################################
 
 import time
 import serial
