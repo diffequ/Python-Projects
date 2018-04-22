@@ -15,7 +15,6 @@ db = client['test-database']                                 # name the db
 
 collection = db.test_collection                              # define the mongodb collection
 
-
 post = {"Place": "Canada","date":datetime.datetime.utcnow()} # create the document
 posts = db.posts
 post_id = posts.insert_one(post).inserted_id                 # Insert Post into db
