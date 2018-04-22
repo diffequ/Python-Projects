@@ -11,3 +11,6 @@ Sometimes in electrical engineering projects calculating power,current,resistanc
 
 * **P4-RectPolar.py:**
 In calculus,rectangular to polar conversion (or vice versa) can be very tricky to do by hand,especially without a calculator.In order to have a program handy,I made this imaginary number converter from Rectangular to polar and polar to rectangular.It was fun! I completed it on August 8 2017.
+
+* **P5-LM35PIC.py:**
+This python code is used for implementing serial communication with PIC16F877 and (ardunio or any other) serial terminal on a macbook or Windows PC.The microcontroller measures the ambient temperature through LM35 temperature sensor and sends the temperature data to the computer its connected to through RS232.
