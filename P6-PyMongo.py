@@ -18,4 +18,6 @@ collection = db.test_collection                              # define the mongod
 post = {"Place": "Canada","date":datetime.datetime.utcnow()} # create the document
 posts = db.posts
 post_id = posts.insert_one(post).inserted_id                 # Insert Post into db
-pprint.pprint(posts.find_one())                              # print db on console
+
+for post in posts.find():
+    pprint.pprint(post)
